@@ -1,3 +1,5 @@
+[![Build Status](https://app.travis-ci.com/Aniro-Montenegro/libpythonpro.svg?branch=main)](https://app.travis-ci.com/Aniro-Montenegro/libpythonpro)
+
 # libpythonpro
 Módulo para exemplificar construção de projetos Python no curso PyTools
 
