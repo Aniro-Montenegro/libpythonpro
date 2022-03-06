@@ -1,5 +1,9 @@
 [![Build Status](https://app.travis-ci.com/Aniro-Montenegro/libpythonpro.svg?branch=main)](https://app.travis-ci.com/Aniro-Montenegro/libpythonpro)
 
+[![Updates](https://pyup.io/repos/github/Aniro-Montenegro/libpythonpro/shield.svg)](https://pyup.io/repos/github/Aniro-Montenegro/libpythonpro/)
+
+[![Python 3](https://pyup.io/repos/github/Aniro-Montenegro/libpythonpro/python-3-shield.svg)](https://pyup.io/repos/github/Aniro-Montenegro/libpythonpro/)
+
 # libpythonpro
 Módulo para exemplificar construção de projetos Python no curso PyTools
 
@@ -66,3 +70,8 @@ pip install requests==2.27.1 - Instala biblioteca especifica
 
 ##Travis
 [![Build Status](https://app.travis-ci.com/Aniro-Montenegro/libpythonpro.svg?branch=main)](https://app.travis-ci.com/Aniro-Montenegro/libpythonpro)
+
+
+
+
+
