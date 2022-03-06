@@ -51,7 +51,7 @@ pip install -r requirements-dev.txt
 ````
 
 ### Para Conferir qualidade do código
-
+flake 8- Verifica qualidade de codigo
 ````commandline
 flake8
 ````
