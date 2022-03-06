@@ -23,6 +23,11 @@ py -3 -m venv .venv
 
 pip install requests- cria o arquivo requeriments
 
+pip freeze  -verifica as bibliotecas instaladas até o momento
+
+pip freeze > requirements.txt   — cria o arquivo requirements com as bibliotecas do projeto
+
+
 pip install -r requirements.txt - instala as bibliotecas do projeto
 
 ### Flake8
