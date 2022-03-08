@@ -79,7 +79,7 @@ git tag 0.1
 
 git push --tags
 
-Criar ambiente virtual
+###Criar ambiente virtual
 
 ````commandline
 py -3 -m venv .venv
