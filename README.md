@@ -87,7 +87,6 @@ py -3 -m venv .venv
 ````
 pip install https://github.com/Aniro-Montenegro/libpythonpro/archive/refs/tags/0.1.zip
 
-
 ##Publicacao Pypi
 
 python setup.py sdist   -cria diretorio com minha distribuição
