@@ -73,5 +73,16 @@ pip install requests==2.27.1 - Instala biblioteca especifica
 
 
 
+##Criar release
 
+git tag 0.1
 
+git push --tags
+
+###Criar ambiente virtual
+
+````commandline
+py -3 -m venv .venv
+.venv\Scripts\activate
+````
+pip install https://github.com/Aniro-Montenegro/libpythonpro/archive/refs/tags/0.1.zip
