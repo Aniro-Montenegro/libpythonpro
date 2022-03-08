@@ -99,7 +99,7 @@ NAME = PACKAGE
 DESCRIPTION = "Módulo para exemplificar construção de projetos Python no curso PyTools"
 AUTHOR = "Aniro Montenegro"
 AUTHOR_EMAIL = "aniromontenegro79@gmail.com"
-URL = "https://github.com/Aniro-Montenegro/libpythonpro"
+URL = 'https://github.com/Aniro-Montenegro/libpythonpro'
 VERSION = __import__(PACKAGE).__version__
 
 setup(
