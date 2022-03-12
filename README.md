@@ -108,3 +108,14 @@ pytest libpythonpro
 ````commandline
 pytest libpythonpro/tests/
 ````
+
+
+##Cobertura de testes
+
+https://pytest-cov.readthedocs.io/en/latest/
+
+````commandline
+pip install pytest-cov
+pytest libpythonpro --cov=libpythonpro
+````
+
