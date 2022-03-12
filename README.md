@@ -36,6 +36,8 @@ pip freeze > requirements.txt   — cria o arquivo requirements com as bibliotec
 
 pip install -r requirements.txt - instala as bibliotecas do projeto
 
+pip install -r requirements-dev.txt - instala as bibliotecas do projeto
+
 ### Flake8
 
 pip install flake8
@@ -94,3 +96,15 @@ python setup.py sdist   -cria diretorio com minha distribuição
 pip install twine
 
 twine upload dist/*
+
+
+## Pytest
+
+pip install pytest
+
+````commandline
+pytest libpythonpro
+````
+````commandline
+pytest libpythonpro/tests/
+````
