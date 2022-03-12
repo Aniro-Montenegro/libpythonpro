@@ -8,8 +8,6 @@ script:
   - pytest libpythonpro --cov=libpythonpro
 after_success:
   - codecov
-  - name: Coverage
-      env:
-        CODECOV_TOKEN: 8e91eb37-cfe0-4078-aecd-0b1da08ef458
+
 
 
