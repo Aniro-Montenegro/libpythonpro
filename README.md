@@ -4,6 +4,7 @@
 
 [![Python 3](https://pyup.io/repos/github/Aniro-Montenegro/libpythonpro/python-3-shield.svg)](https://pyup.io/repos/github/Aniro-Montenegro/libpythonpro/)
 
+[![codecov](https://codecov.io/gh/Aniro-Montenegro/libpythonpro/branch/main/graph/badge.svg?token=JPG43BECUD)](https://codecov.io/gh/Aniro-Montenegro/libpythonpro)
 # libpythonpro
 Módulo para exemplificar construção de projetos Python no curso PyTools
 
