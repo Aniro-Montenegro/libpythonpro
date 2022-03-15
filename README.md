@@ -120,3 +120,5 @@ pip install pytest-cov
 pytest libpythonpro --cov=libpythonpro
 ````
 
+## Emulando testes com banco de dados
+
