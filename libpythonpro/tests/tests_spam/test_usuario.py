@@ -9,10 +9,10 @@ def test_salvar_usuario(sessao):
 
 def test_listar_usuarios(sessao):
     usuarios = [
-                   Usuario(nome='Aniro', email='capablanca1@bol.com.br'),
+                   Usuario(nome='Aniro', email='aniro@bol.com.br'),
 
-                   Usuario(nome='Marisa', email='capablanca1@bol.com.br')
-               ],
+                   Usuario(nome='Marisa', email='marisa@bol.com.br')
+               ]
     for usuario in usuarios:
         sessao.salvar(usuario)
     assert usuarios == sessao.listar()

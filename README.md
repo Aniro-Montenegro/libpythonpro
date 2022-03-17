@@ -120,5 +120,9 @@ pip install pytest-cov
 pytest libpythonpro --cov=libpythonpro
 ````
 
-## Emulando testes com banco de dados
+## Bibloteca Pytest Mock
+````commandline
+pip install pytest-mock
+````
+
 
