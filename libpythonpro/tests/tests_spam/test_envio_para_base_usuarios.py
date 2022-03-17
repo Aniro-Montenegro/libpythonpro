@@ -1,3 +1,5 @@
+from unittest.mock import Mock
+
 import pytest as pytest
 
 from libpythonpro.spam.main import EnviadorDeSpam
@@ -22,7 +24,7 @@ from libpythonpro.spam.test_enviador_de_email import Enviador
 def test_qtd_de_spam(sessao, usuarios):
     for usuario in usuarios:
         sessao.salvar(usuario)
-        enviador = EnviadorMock()
+        enviador = Mock()
     enviador_de_spam = EnviadorDeSpam(sessao, enviador)
     enviador_de_spam.enviar_emails(
         'capablanca1@bol.com.br',
@@ -30,24 +32,13 @@ def test_qtd_de_spam(sessao, usuarios):
         'Confira os módulos fantásticos'
 
     )
-    assert len(usuarios) == enviador.qtd_email_enviados
-
-
-class EnviadorMock(Enviador):
-    def __init__(self):
-        super().__init__()
-        self.qtd_email_enviados = 0
-        self.parametros_de_envio = None
-
-    def enviar(self, remetente, destinatario, assunto, corpo):
-        self.parametros_de_envio = (remetente, destinatario, assunto, corpo)
-        self.qtd_email_enviados += 1
+    assert len(usuarios) == enviador.enviar.call_count
 
 
 def test_parametros_de_spam(sessao):
     usuario = Usuario(nome='Marisa', email='capablanca1@bol.com.br')
     sessao.salvar(usuario)
-    enviador = EnviadorMock()
+    enviador = Mock()
     enviador_de_spam = EnviadorDeSpam(sessao, enviador)
     enviador_de_spam.enviar_emails(
         'marisa@bol.com.br',
@@ -55,7 +46,7 @@ def test_parametros_de_spam(sessao):
         'Confira os módulos fantásticos'
 
     )
-    assert enviador.parametros_de_envio == (
+    enviador.enviar.assert_called_once_with == (
         'marisa@bol.com.br',
         'capablanca1@bol.com.br',
         'Curso Python Pro',
