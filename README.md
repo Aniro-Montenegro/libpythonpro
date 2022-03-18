@@ -146,4 +146,8 @@ pipenv install -d flake8 pytest coverage pytest-cov pytest-mock
 
 ````
 
-Mudado gestor de dependencias
+Update pipenv
+
+````commandline
+pipenv update
+````
