@@ -147,6 +147,7 @@ pipenv install -d flake8 pytest coverage pytest-cov pytest-mock
 ````
 
 Update pipenv
+Comando para update
 
 ````commandline
 pipenv update
