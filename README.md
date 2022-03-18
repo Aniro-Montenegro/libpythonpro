@@ -126,3 +126,22 @@ pip install pytest-mock
 ````
 
 
+## Pienv
+````commandline
+pip install pipenv
+````
+
+Instalando ambiente local
+````commandline
+pip install pipenv
+
+pipenv install requests
+pipenv install -d flake8
+pipenv install -d pytest
+pipenv install -d coverage
+pipenv install -d pytest-cov
+pipenv install -d pytest-mock
+
+pipenv install -d flake8 pytest coverage pytest-cov pytest-mock
+
+````
